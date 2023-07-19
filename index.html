@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Ankuram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5e838d9ab1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container1-audio">
+        <img src="logo.jpg" alt="logo" class="logo" />
+        <h1 class="heading-mandal-name">
+            Akhil Bhartiya Terapanth Mahila Mandal (ABTMM)
+        </h1>
+        <div></div>
+    </div>
+    <div class="container2-audio">
+        <p class="ankuram">अंकुरम</p>
+        <p class="text">
+            नवागत के स्वागत में <br /> इसके अंतर्गत गर्भ शिशु
+            संस्कार का प्रशिक्षण
+        <div class="controls">
+            <audio id="myAudio" src="ankuram.mp4"></audio>
+            <button onclick="togglePlay()" class="button"><i class="fa-solid fa-play fa-xl"></i>Play / <i class="fa-solid fa-pause fa-xl"></i>Pause</button>
+            <br>
+            <button onclick="stopAudio()" class="button"><i class="fa-solid fa-stop fa-xl"></i>Stop</button>
+            <div class="slider-btn">
+                <label>Volume</label>
+                <input type="range" id="volume-slider">
+            </div>
+        </div>
+        </p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
